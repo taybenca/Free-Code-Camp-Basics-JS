@@ -3,7 +3,7 @@
  var a = 10;
  var b = 2;
 
- const sum = a+b;  //we can also use +=
+ const sum = a+b;  //we can also use += to change the variable
  const difference = a-b; //we can also use -=
  const product = a*b; //we can also use *=
  const quotient = a/b  //we can also /=
