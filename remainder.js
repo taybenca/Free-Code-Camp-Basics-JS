@@ -1,6 +1,7 @@
 // The remainder operator is sometimes incorrectly referred to as the modulus operator. It is very similar to modulus, but does not work properly with negative numbers.
 
-var remainder = 11%2;
+var userNumber
+var remainder = userNumber % 2;
 
 console.log("The remainder is: " + remainder);
 
