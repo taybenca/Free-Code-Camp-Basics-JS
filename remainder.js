@@ -10,5 +10,5 @@ if (remainder = 1){
     console.log("This number is odd")
 }
 else {
-    console.log("This numer is even")
+    console.log("This number is even")
 }
