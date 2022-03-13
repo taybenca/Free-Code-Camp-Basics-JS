@@ -6,11 +6,27 @@
 //nextInLine([5,6,7,8,9], 1) should return 5
 //After nextInLine(testArr, 10), testArr[4] should be 10
 
-const arr = [1,2,3,4,5];
+//My solution
 
-function nextInLine(){
-    arr.push(6);
-    arr.shift();
+//const arr = [1,2,3,4,5];
+
+// function nextInLine(){
+//     arr.push(6);
+//     arr.shift();
+// }
+//     nextInLine();
+//     console.log(arr);
+
+//freeCodeCamp's solution
+function nextInLine(arr, item) {
+    arr.push(item);
+    var removed = arr.shift();
+    return removed;
 }
-    nextInLine();
-    console.log(arr);
+// Setup
+const testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
