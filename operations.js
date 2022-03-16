@@ -20,3 +20,6 @@
  const quotientDec = a/b;
 
  console.log(sumDec, differenceDec, productDec, quotientDec);
+
+ const exp = 3**3
+ console.log(exp);
